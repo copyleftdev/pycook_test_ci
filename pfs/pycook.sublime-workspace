@@ -1,0 +1,630 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"user_role"
+			],
+			[
+				"role",
+				"role_list"
+			],
+			[
+				"time",
+				"time_after"
+			],
+			[
+				"doc",
+				"doc_names"
+			],
+			[
+				"Co",
+				"Counter  (class)"
+			],
+			[
+				"upd",
+				"update_user"
+			],
+			[
+				"users",
+				"users_cur"
+			],
+			[
+				"sor",
+				"sort_users_a_desc_dob"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
+				"progressb",
+				"progressbar"
+			],
+			[
+				"Connection",
+				"ConnectionFailure"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"conne",
+				"connection_string"
+			],
+			[
+				"mynames",
+				"mynames_list"
+			],
+			[
+				"getM",
+				"getMinutes  (function)"
+			],
+			[
+				"readF",
+				"fs.readFileSync(path, encoding);"
+			],
+			[
+				"des",
+				"destination"
+			],
+			[
+				"city",
+				"cityInpt"
+			],
+			[
+				"stree",
+				"streetInpt"
+			],
+			[
+				"phone",
+				"phoneInpt"
+			],
+			[
+				"em",
+				"emailInpt"
+			],
+			[
+				"last",
+				"lastNameInpt"
+			],
+			[
+				"firs",
+				"firstNameInpt"
+			],
+			[
+				"docume",
+				"documentUrl"
+			],
+			[
+				"get",
+				"getElementsByName  (function)"
+			],
+			[
+				"con",
+				"content_hash"
+			],
+			[
+				"SITE",
+				"SITE_HASH_MAP"
+			],
+			[
+				"sample",
+				"sample_method_1"
+			],
+			[
+				"Sample",
+				"SamplesClass"
+			],
+			[
+				"call",
+				"call_sample_method_1"
+			],
+			[
+				"lett",
+				"lettuce_test"
+			],
+			[
+				"unit",
+				"unit_test"
+			],
+			[
+				"accou",
+				"accounts"
+			],
+			[
+				"FOr",
+				"Formatter"
+			],
+			[
+				"threa",
+				"threading  (module)"
+			],
+			[
+				"acc",
+				"account_1"
+			],
+			[
+				"status",
+				"status_code"
+			],
+			[
+				"Connec",
+				"ConnectionError"
+			],
+			[
+				"mock",
+				"mock_data_interface"
+			],
+			[
+				"param_",
+				"param_value_1"
+			],
+			[
+				"ma",
+				"main_method"
+			],
+			[
+				"sta",
+				"static_method_choices  (variable)"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"b",
+				"busi_logic"
+			],
+			[
+				"Bus",
+				"BusinessLogic"
+			],
+			[
+				"A",
+				"AnnealingEpsilonGreedy  (class)"
+			],
+			[
+				"ann",
+				"annealing_output_file"
+			],
+			[
+				"an",
+				"annealing_output_file"
+			],
+			[
+				"ran",
+				"randrange  (function)"
+			],
+			[
+				"ind",
+				"ind_max"
+			],
+			[
+				"return",
+				"return_value"
+			],
+			[
+				"C",
+				"ConnectionError"
+			],
+			[
+				"g",
+				"get_account"
+			],
+			[
+				"test_",
+				"test_non_marked_lines"
+			],
+			[
+				"asser",
+				"assertEqual  (function)"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"de",
+				"dequeue"
+			],
+			[
+				"size",
+				"size_max"
+			],
+			[
+				"chan",
+				"changes"
+			],
+			[
+				"chang",
+				"change_variants"
+			],
+			[
+				"coins_",
+				"coins_available"
+			],
+			[
+				"base",
+				"BaseConverter"
+			],
+			[
+				"test_q",
+				"test_question_one"
+			],
+			[
+				"ana",
+				"anagramSolution1"
+			],
+			[
+				"S",
+				"stillOK"
+			],
+			[
+				"data",
+				"datafile"
+			],
+			[
+				"DA",
+				"DATAFILE"
+			],
+			[
+				"first",
+				"first_arg"
+			],
+			[
+				"second",
+				"second_arg"
+			],
+			[
+				"fir",
+				"first_arg"
+			],
+			[
+				"seco",
+				"second_arg"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dj/Project/learn_flask/app/5_1hello.py",
+		"/Users/dj/Project/learn_flask/app/data/data.sqlite",
+		"/Users/dj/Project/learn_flask/app/templates/4_6index.html",
+		"/Users/dj/Project/learn_flask/app/4_6hello.py",
+		"/Users/dj/Project/learn_flask/app/templates/base.html",
+		"/Users/dj/Project/learn_flask/app/4_5hello.py",
+		"/Users/dj/Project/learn_flask/app/templates/4_5index.html",
+		"/Users/dj/Project/learn_flask/app/templates/4_3index.html",
+		"/Users/dj/Project/learn_flask/app/4_1.hello.py",
+		"/Users/dj/Project/learn_flask/app/templates/4_3indedx.html",
+		"/Users/dj/Project/learn_flask/app/3_14_hello.py",
+		"/Users/dj/Project/learn_flask/app/templates/index.html",
+		"/Users/dj/Project/learn_flask/samples/flasky/tests/test_selenium.py",
+		"/Users/dj/Project/learn_flask/app/3_4_hello.py",
+		"/Users/dj/Project/learn_flask/app/templates/user.html",
+		"/Users/dj/Project/learn_flask/app/templates/404.html",
+		"/Users/dj/Project/learn_flask/app/templates/500.html",
+		"/Users/dj/Project/learn_flask/app/3_6_hello.py",
+		"/Users/dj/Project/learn_flask/app/3_3_hello.py",
+		"/Users/dj/Project/learn_flask/app/2_2_hello.py",
+		"/Users/dj/Project/learn_flask/app/redirect.py",
+		"/Users/dj/Project/learn_flask/app/make_response.py",
+		"/Users/dj/Project/learn_flask/app/404.py",
+		"/Users/dj/Library/Application Support/Sublime Text 2/Packages/User/flaskstub",
+		"/Users/dj/Project/learn_flask/app/400.py",
+		"/Users/dj/Project/learn_flask/app/user_agent_demo.py",
+		"/Users/dj/Project/learn_flask/app/2_1_hello.py",
+		"/Users/dj/Project/learn_flask/sftp-config.json",
+		"/Users/dj/dj2t/Projects/learn_flask/sftp-config.json",
+		"/Users/dj/dj2t/Projects/learn_flask/.gitignore",
+		"/Users/dj/Project/myrestapi/app/myrestapi.py",
+		"/Users/dj/Project/myrestapi/app/list_records.py",
+		"/Users/dj/Project/myrestapi/app/send_restful.py",
+		"/Users/dj/Project/crawl_tutorial/crawl_tutorial/spiders/dmoz_spiler.py",
+		"/Users/dj/Project/crawl_tutorial/items.json",
+		"/Users/dj/Desktop/fibword.py",
+		"/Users/dj/Desktop/entrophy.py",
+		"/Users/dj/dj2t/projects/statd/example.py",
+		"/Users/dj/Project/pymongo/app/mongodb_database_handle.py",
+		"/Users/dj/Desktop/sshfsinfo.txt",
+		"/Users/dj/Project/pymongo/app/update_document.py",
+		"/Users/dj/Project/pymongo/app/snapshot_mode.py",
+		"/Users/dj/Project/pymongo/app/sorted_records.py",
+		"/Users/dj/Project/pymongo/app/poc_edr_on_mongo.py",
+		"/Users/dj/Project/pymongo/app/count_users.py",
+		"/Users/dj/Project/pymongo/app/insert_generator.py",
+		"/Users/dj/Project/pymongo/app/fid_all_users.py",
+		"/Users/dj/Project/pymongo/app/find_one_user.py",
+		"/Users/dj/Project/pymongo/app/insert_docs_mongodb.py",
+		"/Users/dj/Project/pymongo/app/connection_mongodb.py",
+		"/Users/dj/Project/mongo_demo/index.py",
+		"/Users/dj/Project/mongo_demo/DAO/guestbook.py",
+		"/Users/dj/Project/mongo_demo/templates/index.html",
+		"/Users/dj/Project/mongo_demo/.gitignore",
+		"/Users/dj/Project/selenium_edr/scratch/chrome.py",
+		"/Users/dj/Project/selenium_edr/scratch/firefox.py",
+		"/Users/dj/Project/selenium_edr/.gitignore",
+		"/Users/dj/Project/nodeschool.io/functions.js",
+		"/Users/dj/Project/nodeschool.io/function-arguments.js",
+		"/Users/dj/Project/nodeschool.io/hello_world/readme.txt",
+		"/Users/dj/Project/nodeschool.io/object-properties.js",
+		"/Users/dj/Project/nodeschool.io/objects.js",
+		"/Users/dj/Project/nodeschool.io/looping-through-arrays.js",
+		"/Users/dj/Project/nodeschool.io/arrays.js",
+		"/Users/dj/Project/nodeschool.io/array_filtering.js",
+		"/Users/dj/Project/nodeschool.io/for-loop.js",
+		"/Users/dj/Project/nodeschool.io/if_statement.js",
+		"/Users/dj/Project/nodeschool.io/number-to-string.js",
+		"/Users/dj/Project/nodeschool.io/rounding_numbers.js",
+		"/Users/dj/Project/nodeschool.io/numbers.js",
+		"/Users/dj/Project/nodeschool.io/strings.js",
+		"/Users/dj/Project/nodeschool.io/string_length.js",
+		"/Users/dj/Project/nodeschool.io/string_replace.js",
+		"/Users/dj/Project/nodeschool.io/upper_case.js",
+		"/Users/dj/Project/nodeschool.io/json_api_server.js",
+		"/Users/dj/Project/nodeschool.io/introduction.js",
+		"/Users/dj/Project/nodeschool.io/variables.js",
+		"/Users/dj/Project/nodeschool.io/time_server.js",
+		"/Users/dj/Project/nodeschool.io/file_server.js",
+		"/Users/dj/Project/nodeschool.io/time_server.ks",
+		"/Users/dj/Project/nodeschool.io/http_collect.js",
+		"/Users/dj/Project/nodeschool.io/juggling_async.js",
+		"/Users/dj/Project/nodeschool.io/http_client.js",
+		"/Users/dj/Project/nodeschool.io/modular_filter.js",
+		"/Users/dj/Project/nodeschool.io/modular.js",
+		"/Users/dj/Project/nodeschool.io/filtered_ls.js",
+		"/Users/dj/Project/nodeschool.io/first_io_async.js",
+		"/Users/dj/Project/nodeschool.io/data/file-list.json",
+		"/Users/dj/Project/nodeschool.io/first_io.js",
+		"/Users/dj/Project/nodeschool.io/data/test.txt",
+		"/Users/dj/Project/nodeschool.io/data/test.tx",
+		"/Users/dj/Project/nodeschool.io/baby.js",
+		"/Users/dj/Project/nodeschool.io/arg_passing.js",
+		"/Users/dj/Project/nodeschool.io/helloworld.js",
+		"/Users/dj/Project/node_in_action/ch01/page29.js",
+		"/Users/dj/Project/node.js/solution_chapter_four/flight/index.js",
+		"/Users/dj/Project/node.js/chapter_seven/flight/index.js",
+		"/Users/dj/Project/node.js/chapter_five/package.json",
+		"/Users/dj/Project/node.js/chapter_five/flight/index.js",
+		"/Users/dj/Project/node.js/chapter_five/app.js",
+		"/Users/dj/Project/node.js/chapter_five/index.js",
+		"/Users/dj/Project/node.js/chapter_four/package.json",
+		"/Users/dj/Project/node.js/chapter_three/index.js",
+		"/Users/dj/Project/node.js/chapter_three/package.json",
+		"/Users/dj/Project/node.js/chapter_two/server.js",
+		"/Users/dj/Project/node.js/chapter_one/relay/index.js",
+		"/Users/dj/Project/node.js/chapter_one/example3.js",
+		"/Users/dj/Project/node.js/chapter_one/proclaim.js",
+		"/Users/dj/Project/node.js/chapter_one/example4.js",
+		"/Users/dj/Project/node.js/chapter_one/example1.js",
+		"/Users/dj/Project/node.js/chapter_one/announce.js",
+		"/Users/dj/Project/node.js/chapter_one/example2.js",
+		"/Users/dj/Project/backbone_testing/test/chapters/02/coverage.html",
+		"/Users/dj/Project/backbone_testing/test/chapters/02/specs/collections/notes.spec.js",
+		"/Users/dj/Project/backbone_testing/test/chapters/02/test.html",
+		"/Users/dj/Project/backbone_testing/test/test.html",
+		"/Users/dj/Project/backbone_testing/test/chapters/01/js/spec/timing.spec.js",
+		"/Users/dj/Project/backbone_testing/test/chapters/01/test-timings.html",
+		"/Users/dj/Project/backbone_testing/test/chapters/01/js/spec/failure.spec.js",
+		"/Users/dj/Project/backbone_testing/test/chapters/01/test-failure.html",
+		"/Users/dj/Project/backbone_testing/test/chapters/01/test.html",
+		"/Users/dj/Project/backbone_testing/test/chapters/01/js/spec/hello.spec.js",
+		"/Users/dj/Project/backbone_testing/.gitignore",
+		"/Users/dj/Project/backbone_testing/test/js/lib/mocha.css",
+		"/Users/dj/Project/backbone_testing/test/js/lib/mocha.js",
+		"/Users/dj/Project/backbone_testing/app/js/lib/underscore.js",
+		"/Users/dj/Project/phantomjs_demo/apps/YapeCotactForm.js",
+		"/Users/dj/Project/phantomjs_demo/apps/domDemo.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/dj/Project/Project_ED_SUCKS"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"* ",
+			"link",
+			"http://www.yapstone.com/",
+			"port",
+			"ElementTree",
+			"cElementTree",
+			"ElementTree",
+			"cElementTree",
+			"celement",
+			"TASK",
+			"color",
+			"get_builder",
+			"busi_logic",
+			"Calcumator",
+			"assert run_markdown",
+			"sleep",
+			"Supported",
+			" equality",
+			"Documents",
+			"Microsoft sql",
+			"ed server",
+			"feature",
+			"n",
+			"coin",
+			"process_data",
+			"i",
+			"STATIC_NUM"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"black & white",
+			"ed-server"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 142.0
+	},
+	"output.clang_static_analyzer":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.run_mocha":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 142.0
+	},
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true
+}
