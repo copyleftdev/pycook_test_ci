@@ -5,7 +5,7 @@ from app.codetestcodeutils import codetestcodeutils
 
 
 
-class TestCodeTestCodeSuite(unittest.TestCase):
+class TestCodeTestSuite(unittest.TestCase):
 
    def test_unpack_seq_to_sperate_vars(self):
     test_vector = codetestcodeutils()

@@ -29,6 +29,15 @@ class codetestcodeutils(object):
     return(x,y,one,two,three, name, date_of_birth,location,w,o,r,l,d)
 
   def keep_last_n_items(self, lines, patterns,history=5):
+    '''
+          1.3. Keeping the Last N Items
+          Problem
+          ----------
+            You want to keep a limited history of the last few items seen during iteration or during some other kind of processing.
+          Solution
+          -----------
+            Keeping a limited history is a perfect use for a collections.deque. For example, the following code performs a simple text match on a sequence of lines and yields the matching line along with the previous N lines of context when found:
+    '''
     previous_lines = deque(maxlen=history)
     for line in  lines:
       if patterns in line:
