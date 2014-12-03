@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/copyleftdev/pycook_test_ci.svg?branch=master)](https://travis-ci.org/copyleftdev/pycook_test_ci)
