@@ -47,27 +47,9 @@ class codetestcodeutils(object):
 
 
   def find_largest_n_items(self,limit, data_series,value_vector):
-    '''
-        1.4a Finding the Largest N Items
-        Problem
-        ---------------
-        You want to make a list of the largest or smallest N items in a collection.
-        Solution
-        ---------------
-        The heapq module has two functions—nlargest() that do exactly what you want. For example:
-'''
     largest_value = heapq.nlargest(limit ,data_series, key=lambda s: s[value_vector])
     return largest_value
 
   def find_smallest_n_items(self, limit, data_series,value_vector):
-        '''
-        1.4a1 Finding the Smallest N Items
-        Problem
-        ---------------
-        You want to make a list of the largest or smallest N items in a collection.
-        Solution
-        ---------------
-        The heapq module has two functions—nlargest() that do exactly what you want. For example:
-'''
     smallest_value = heapq.nsmallest(limit, data_series, key=lambda s: s[value_vector])
     return smallest_value
