@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"find",
+				"find_largest_or_smallest_n_items"
+			],
+			[
+				"test",
+				"test_vector"
+			],
+			[
+				"code",
+				"codetestcodeutils"
+			],
+			[
+				"n",
+				"nsmallest  (function)"
+			],
+			[
+				"un",
+				"unpack_seq_to_seperate_vars"
+			],
+			[
+				"da",
+				"date_of_birth"
+			],
+			[
 				"user",
 				"user_role"
 			],
@@ -352,6 +376,11 @@
 	},
 	"file_history":
 	[
+		"/Users/dj/Project/pycook/app/codetestcodeutils.py",
+		"/Users/dj/Project/pycook/tests/codetestcodeutils_test.py",
+		"/Users/dj/Project/pycook/scratch.py",
+		"/Users/dj/Project/pycook/.gitignore",
+		"/Users/dj/Project/pycook/tests/data/sample.txt",
 		"/Users/dj/Project/learn_flask/app/5_1hello.py",
 		"/Users/dj/Project/learn_flask/app/data/data.sqlite",
 		"/Users/dj/Project/learn_flask/app/templates/4_6index.html",
@@ -474,12 +503,7 @@
 		"/Users/dj/Project/backbone_testing/test/chapters/01/test-failure.html",
 		"/Users/dj/Project/backbone_testing/test/chapters/01/test.html",
 		"/Users/dj/Project/backbone_testing/test/chapters/01/js/spec/hello.spec.js",
-		"/Users/dj/Project/backbone_testing/.gitignore",
-		"/Users/dj/Project/backbone_testing/test/js/lib/mocha.css",
-		"/Users/dj/Project/backbone_testing/test/js/lib/mocha.js",
-		"/Users/dj/Project/backbone_testing/app/js/lib/underscore.js",
-		"/Users/dj/Project/phantomjs_demo/apps/YapeCotactForm.js",
-		"/Users/dj/Project/phantomjs_demo/apps/domDemo.js"
+		"/Users/dj/Project/backbone_testing/.gitignore"
 	],
 	"find":
 	{
@@ -498,6 +522,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"varlist",
 			"* ",
 			"link",
 			"http://www.yapstone.com/",
@@ -547,6 +572,11 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
@@ -566,11 +596,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.508428657435,
 			1.0
 		],
 		"rows":

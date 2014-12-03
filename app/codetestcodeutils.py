@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 from collections import deque
+import heapq
 
 class codetestcodeutils(object):
 
@@ -43,3 +44,12 @@ class codetestcodeutils(object):
       if patterns in line:
         yield line, previous_lines
       previous_lines.append(line)
+
+
+  def find_largest_n_items(self,limit, data_series,value_vector):
+    largest_value = heapq.nlargest(limit ,data_series, key=lambda s: s[value_vector])
+    return largest_value
+
+  def find_smallest_n_items(self, limit, data_series,value_vector):
+    smallest_value = heapq.nsmallest(limit, data_series, key=lambda s: s[value_vector])
+    return smallest_value
