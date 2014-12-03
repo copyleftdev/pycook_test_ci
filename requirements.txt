@@ -1,6 +1,5 @@
 cov-core
 coverage
-nose
 nose-cov
 rednose
 
