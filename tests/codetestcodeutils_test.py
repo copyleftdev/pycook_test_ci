@@ -42,6 +42,11 @@ class TestCodeTestSuite(unittest.TestCase):
       {'name':'ACME', 'shares':75, 'price':115.65}
     ]
      self.assertEqual(test_vector.find_largest_n_items(3,portfolio,"price"),[{'price': 543.22, 'name': 'APPL', 'shares': 50}, {'price': 115.65, 'name': 'ACME', 'shares': 75}, {'price': 91.1, 'name': 'IBM', 'shares': 100}])
+  def test_map_to_multiple_values(self):
+    test_vector = codetestcodeutils()
+    test_list = list(range(0,20))
+    assert_vector =  {'vector_a': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]}
+    self.assertEqual(test_vector.map_keys_to_mutiple_values('temp','vector_a',test_list),assert_vector)
 
 
 

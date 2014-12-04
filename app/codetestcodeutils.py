@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from collections import deque
+from collections import deque, defaultdict
 import heapq
 
 class codetestcodeutils(object):
@@ -71,3 +71,15 @@ class codetestcodeutils(object):
     """
     smallest_value = heapq.nsmallest(limit, data_series, key=lambda s: s[value_vector])
     return smallest_value
+
+
+  def map_keys_to_mutiple_values(self,dict_name, key_name, values):
+
+    dict_name = {
+      key_name : []
+    }
+    for value in values:
+      dict_name[key_name].append(value)
+    return dict_name
+
+
