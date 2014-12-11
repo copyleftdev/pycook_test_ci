@@ -93,3 +93,11 @@ class codetestcodeutils(object):
   def calculate_dict_max(self, dict_name):
     result = max(zip(dict_name.values(),dict_name.keys()))
     return result
+
+  def find_dict_keys_in_common(self, dict_one, dict_two):
+    result = dict_one.keys() and dict_two.keys()
+    return result
+
+  def find_key_values_in_common(self, dict_one,dict_two):
+    result =  dict_one.items() and dict_two.items()
+    return result

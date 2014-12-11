@@ -67,6 +67,19 @@ class TestCodeTestSuite(unittest.TestCase):
     assert_vector = (612.78, 'AAPL')
     self.assertEqual(tv.calculate_dict_max(prices),assert_vector)
 
+  def test_find_dict_keys_in_common(self):
+    a = {'x':1, 'y':2, 'z':3}
+    b = {'w':10, 'x':11, 'y':2}
+    tv = codetestcodeutils()
+    av = ['y', 'x', 'w']
+    self.assertEqual(tv.find_dict_keys_in_common(a, b),av)
+
+  def test_find_key_value_in_common(self):
+    a = {'x':1, 'y':2, 'z':3}
+    b = {'w':10, 'x':11, 'y':2}
+    tv = codetestcodeutils()
+    av = [('y', 2), ('x', 11), ('w', 10)]
+    self.assertEqual(tv.find_key_values_in_common(a,b),av)
 
 
 
