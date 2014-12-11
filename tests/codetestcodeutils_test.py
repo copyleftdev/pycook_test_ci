@@ -55,6 +55,18 @@ class TestCodeTestSuite(unittest.TestCase):
     assert_vector = tv.keep_dict_in_order(test_dict)
     self.assertEqual(OrderedDict(),assert_vector)
 
+  def test_calculate_dict_min(self):
+    prices = {'ACME': 45.23,'AAPL': 612.78,'IBM': 205.55,'HPQ': 37.20,'FB': 10.75}
+    tv = codetestcodeutils()
+    assert_vector = (10.75, 'FB')
+    self.assertEqual(tv.calculate_dict_min(prices),assert_vector)
+
+  def test_calculate_dict_max(self):
+    prices = {'ACME': 45.23,'AAPL': 612.78,'IBM': 205.55,'HPQ': 37.20,'FB': 10.75}
+    tv = codetestcodeutils()
+    assert_vector = (612.78, 'AAPL')
+    self.assertEqual(tv.calculate_dict_max(prices),assert_vector)
+
 
 
 

@@ -86,4 +86,10 @@ class codetestcodeutils(object):
     dict_name = OrderedDict()
     return dict_name
 
+  def calculate_dict_min(self, dict_name):
+    result = min(zip(dict_name.values(),dict_name.keys()))
+    return result
 
+  def calculate_dict_max(self, dict_name):
+    result = max(zip(dict_name.values(),dict_name.keys()))
+    return result
