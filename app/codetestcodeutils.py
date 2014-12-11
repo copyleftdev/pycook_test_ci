@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from collections import deque, defaultdict
+from collections import deque, defaultdict, OrderedDict
 import heapq
 
 class codetestcodeutils(object):
@@ -80,6 +80,10 @@ class codetestcodeutils(object):
     }
     for value in values:
       dict_name[key_name].append(value)
+    return dict_name
+
+  def keep_dict_in_order(self,dict_name):
+    dict_name = OrderedDict()
     return dict_name
 
 

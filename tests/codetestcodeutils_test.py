@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 from app.codetestcodeutils import codetestcodeutils
+from collections import OrderedDict
 
 
 
@@ -47,6 +48,12 @@ class TestCodeTestSuite(unittest.TestCase):
     test_list = list(range(0,20))
     assert_vector =  {'vector_a': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]}
     self.assertEqual(tv.map_keys_to_mutiple_values('temp','vector_a',test_list),assert_vector)
+
+  def test_dict_in_order(self):
+    tv = codetestcodeutils()
+    test_dict = {'vector1':1,'vector2':2,'vector3':3}
+    assert_vector = tv.keep_dict_in_order(test_dict)
+    self.assertEqual(OrderedDict(),assert_vector)
 
 
 
