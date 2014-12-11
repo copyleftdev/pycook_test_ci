@@ -65,3 +65,10 @@ class codetestcodeutils(object):
   def find_key_values_in_common(self, dict_one,dict_two):
     result =  dict_one.items() and dict_two.items()
     return result
+  
+  def remove_dupes_from_seq_with_order(self, seq_name):
+    seen = set()
+    for item in seq_name:
+      if item not in seen:
+        yield item
+        seen.add(item)
