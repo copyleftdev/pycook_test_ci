@@ -46,26 +46,26 @@ class TestCodeTestSuite(unittest.TestCase):
   def test_map_to_multiple_values(self):
     tv = codetestcodeutils()
     test_list = list(range(0,20))
-    assert_vector =  {'vector_a': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]}
-    self.assertEqual(tv.map_keys_to_mutiple_values('temp','vector_a',test_list),assert_vector)
+    av =  {'vector_a': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]}
+    self.assertEqual(tv.map_keys_to_mutiple_values('temp','vector_a',test_list),av)
 
   def test_dict_in_order(self):
     tv = codetestcodeutils()
     test_dict = {'vector1':1,'vector2':2,'vector3':3}
-    assert_vector = tv.keep_dict_in_order(test_dict)
-    self.assertEqual(OrderedDict(),assert_vector)
+    av = tv.keep_dict_in_order(test_dict)
+    self.assertEqual(OrderedDict(),av)
 
   def test_calculate_dict_min(self):
     prices = {'ACME': 45.23,'AAPL': 612.78,'IBM': 205.55,'HPQ': 37.20,'FB': 10.75}
     tv = codetestcodeutils()
-    assert_vector = (10.75, 'FB')
-    self.assertEqual(tv.calculate_dict_min(prices),assert_vector)
+    av = (10.75, 'FB')
+    self.assertEqual(tv.calculate_dict_min(prices),av)
 
   def test_calculate_dict_max(self):
     prices = {'ACME': 45.23,'AAPL': 612.78,'IBM': 205.55,'HPQ': 37.20,'FB': 10.75}
     tv = codetestcodeutils()
-    assert_vector = (612.78, 'AAPL')
-    self.assertEqual(tv.calculate_dict_max(prices),assert_vector)
+    av = (612.78, 'AAPL')
+    self.assertEqual(tv.calculate_dict_max(prices),av)
 
   def test_find_dict_keys_in_common(self):
     a = {'x':1, 'y':2, 'z':3}
@@ -80,6 +80,23 @@ class TestCodeTestSuite(unittest.TestCase):
     tv = codetestcodeutils()
     av = [('y', 2), ('x', 11), ('w', 10)]
     self.assertEqual(tv.find_key_values_in_common(a,b),av)
+
+  def test_dupes_from_dupes_from_seq_with_order(self):
+    a = [1,1,2,2,3,3,4,4]
+    tv = codetestcodeutils()
+    av = [1,2,3,4]
+    self.assertEqual(list(tv.remove_dupes_from_seq_with_order(a)),av)
+
+  def test_most_occuring_item_in_seq(self):
+    words = [ 'look', 'into', 'my', 'eyes', 'look', 'into', 'my', 'eyes',
+              'the', 'eyes', 'the', 'eyes', 'the', 'eyes', 'not', 'around', 'the',
+              'eyes', "don't", 'look', 'around', 'the', 'eyes', 'look', 'into',
+              'my', 'eyes', "you're", 'under'
+    ]
+    tv = codetestcodeutils()
+    av = [('eyes', 8), ('the', 5), ('look', 4)]
+    self.assertEqual(tv.find_most_occuring_item_in_seq(words,3),av)
+
 
 
 
