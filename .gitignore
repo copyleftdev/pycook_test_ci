@@ -1,3 +1,4 @@
 pfs/
 *.pyc
 scratch.py
+.coverage
