@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from collections import deque, defaultdict, OrderedDict, Counter
+from collections import deque, OrderedDict, Counter
 import heapq
 
 class codetestcodeutils(object):
@@ -76,3 +76,7 @@ class codetestcodeutils(object):
   def find_most_occuring_item_in_seq(self, seq_name,top_count):
     word_counts = Counter(seq_name)
     return word_counts.most_common(top_count)
+
+  def sort_dicts_by_common_keys(self, dict_name, sort_vector):
+    sorted_dict =  sorted(dict_name, key=lambda r: r[sort_vector])
+    return sorted_dict

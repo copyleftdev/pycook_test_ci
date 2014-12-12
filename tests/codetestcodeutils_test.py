@@ -97,6 +97,22 @@ class TestCodeTestSuite(unittest.TestCase):
     av = [('eyes', 8), ('the', 5), ('look', 4)]
     self.assertEqual(tv.find_most_occuring_item_in_seq(words,3),av)
 
+  def test_dicts_by_common_keys(self):
+    rows = [
+      {'fname': 'Brian', 'lname': 'Jones', 'uid': 1003},
+      {'fname': 'David', 'lname': 'Beazley', 'uid': 1002},
+      {'fname': 'John', 'lname': 'Cleese', 'uid': 1001},
+      {'fname': 'Big', 'lname': 'Jones', 'uid': 1004}
+    ]
+    tv = codetestcodeutils()
+    av = [
+      {'lname': 'Cleese', 'uid': 1001, 'fname': 'John'},
+      {'lname': 'Beazley', 'uid': 1002, 'fname': 'David'},
+        {'lname': 'Jones', 'uid': 1003, 'fname': 'Brian'},
+        {'lname': 'Jones', 'uid': 1004, 'fname': 'Big'}
+    ]
+    self.assertEqual(tv.sort_dicts_by_common_keys(rows,'uid'),av)
+
 
 
 
