@@ -3,6 +3,12 @@
 from collections import deque, OrderedDict, Counter
 import heapq
 
+class User:
+  def __init__(self, user_id):
+    self.user_id = user_id
+  def __repr__(self):
+    return 'User({})'.format(self.user_id)
+
 class codetestcodeutils(object):
 
   def unpack_seq_to_seperate_vars(self):
