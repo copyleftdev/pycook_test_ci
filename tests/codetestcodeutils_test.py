@@ -87,6 +87,17 @@ class TestCodeTestSuite(unittest.TestCase):
     av = [1,2,3,4]
     self.assertEqual(list(tv.remove_dupes_from_seq_with_order(a)),av)
 
+  def test_most_occuring_item_in_seq(self):
+    words = [ 'look', 'into', 'my', 'eyes', 'look', 'into', 'my', 'eyes',
+              'the', 'eyes', 'the', 'eyes', 'the', 'eyes', 'not', 'around', 'the',
+              'eyes', "don't", 'look', 'around', 'the', 'eyes', 'look', 'into',
+              'my', 'eyes', "you're", 'under'
+    ]
+    tv = codetestcodeutils()
+    av = [('eyes', 8), ('the', 5), ('look', 4)]
+    self.assertEqual(tv.find_most_occuring_item_in_seq(words,3),av)
+
+
 
 
 

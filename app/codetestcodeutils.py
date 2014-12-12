@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from collections import deque, defaultdict, OrderedDict
+from collections import deque, defaultdict, OrderedDict, Counter
 import heapq
 
 class codetestcodeutils(object):
@@ -72,3 +72,7 @@ class codetestcodeutils(object):
       if item not in seen:
         yield item
         seen.add(item)
+
+  def find_most_occuring_item_in_seq(self, seq_name,top_count):
+    word_counts = Counter(seq_name)
+    return word_counts.most_common(top_count)
