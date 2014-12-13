@@ -4,6 +4,7 @@ from collections import deque, OrderedDict, Counter
 import heapq
 
 class User:
+    "This class needs a comment"
   def __init__(self, user_id):
     self.user_id = user_id
   def __repr__(self):
