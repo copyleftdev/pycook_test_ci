@@ -3,6 +3,7 @@
 import unittest
 from app.codetestcodeutils import codetestcodeutils
 from collections import OrderedDict
+from os import getcwd
 
 
 
@@ -113,9 +114,27 @@ class TestCodeTestSuite(unittest.TestCase):
     ]
     self.assertEqual(tv.sort_dicts_by_common_keys(rows,'uid'),av)
 
+  def test_cal_sum_of_square(self):
+    nums = [1, 2 ,3, 4, 5]
+    tv = codetestcodeutils()
+    av =  sum(x * x for x in nums)
+    self.assertEqual(tv.calc_sum_of_square(nums),av)
 
+  def test_check_for_file_type(self):
+    tv = codetestcodeutils()
+    self.assertEqual(tv.check_for_file_type(getcwd(),'.py'),True)
+    self.assertEqual(tv.check_for_file_type(getcwd(),'.c'),False)
 
-
+  def test_reduce_across_fields_in_data_structure(self):
+    portfolio = [
+      {'name':'GOOG', 'shares': 50},
+      {'name':'YHOO', 'shares': 75},
+      {'name':'AOL', 'shares': 20},
+      {'name':'SCOX', 'shares': 65}
+    ]
+    tv = codetestcodeutils()
+    av = 20
+    self.assertEqual(tv.reduce_across_fields_in_data_structure(portfolio,'shares'),av)
 
 if __name__ == '__main__':
   unittest.main()
