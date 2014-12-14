@@ -2,13 +2,8 @@
 # -*- coding: utf-8 -*-
 from collections import deque, OrderedDict, Counter
 import heapq
+import os
 
-class User:
-  "This class needs a comment"
-  def __init__(self, user_id):
-    self.user_id = user_id
-  def __repr__(self):
-    return 'User({})'.format(self.user_id)
 
 class codetestcodeutils(object):
 
@@ -87,3 +82,18 @@ class codetestcodeutils(object):
   def sort_dicts_by_common_keys(self, dict_name, sort_vector):
     sorted_dict =  sorted(dict_name, key=lambda r: r[sort_vector])
     return sorted_dict
+
+  def calc_sum_of_square(self,list_name):
+    s = sum( x * x for x in list_name)
+    return s
+
+  def check_for_file_type(self,dir_name,file_type):
+    files = os.listdir(dir_name)
+    if any(name.endswith(file_type) for name in files):
+      return True
+    else:
+      return False
+
+  def reduce_across_fields_in_data_structure(self,sname,fname):
+    min_sum = min(s['{}'.format(fname)] for s in sname)
+    return min_sum
