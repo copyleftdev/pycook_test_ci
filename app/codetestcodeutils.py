@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from collections import deque, OrderedDict, Counter, ChainMap
+from collections import deque, OrderedDict, Counter
 import heapq
 
 
