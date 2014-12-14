@@ -131,5 +131,11 @@ class TestCodeTestSuite(unittest.TestCase):
     av = 20
     self.assertEqual(tv.reduce_across_fields_in_data_structure(portfolio,'shares'),av)
 
+  def test_splitting_string_og_any_delimenter(self):
+    line = 'asdf fjdk; afed, fjek,asdf,      foo'
+    av = ['asdf', 'fjdk', 'afed', 'fjek', 'asdf', 'foo']
+    tv = codetestcodeutils()
+    self.assertEqual(tv.splitting_string_of_any_delimeter(line),av)
+
 if __name__ == '__main__':
   unittest.main()
