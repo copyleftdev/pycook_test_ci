@@ -120,11 +120,6 @@ class TestCodeTestSuite(unittest.TestCase):
     av =  sum(x * x for x in nums)
     self.assertEqual(tv.calc_sum_of_square(nums),av)
 
-  def test_check_for_file_type(self):
-    tv = codetestcodeutils()
-    self.assertEqual(tv.check_for_file_type(getcwd(),'.py'),True)
-    self.assertEqual(tv.check_for_file_type(getcwd(),'.c'),False)
-
   def test_reduce_across_fields_in_data_structure(self):
     portfolio = [
       {'name':'GOOG', 'shares': 50},

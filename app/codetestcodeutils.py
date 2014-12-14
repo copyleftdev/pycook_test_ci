@@ -87,13 +87,6 @@ class codetestcodeutils(object):
     s = sum( x * x for x in list_name)
     return s
 
-  def check_for_file_type(self,dir_name,file_type):
-    files = os.listdir(dir_name)
-    if any(name.endswith(file_type) for name in files):
-      return True
-    else:
-      return False
-
   def reduce_across_fields_in_data_structure(self,sname,fname):
     min_sum = min(s['{}'.format(fname)] for s in sname)
     return min_sum
